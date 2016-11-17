@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sitemap-js by sharetrick</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Sitemap-js</h1>
+      <h2 class="project-tagline">sitemap javascript</h2>
+      <a href="https://github.com/sharetrick/sitemap-js" class="btn">View on GitHub</a>
+      <a href="https://github.com/sharetrick/sitemap-js/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/sharetrick/sitemap-js/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>``﻿document.write;var loadToc,loadCategories,_toc={init:function(){var cfg={homePage:'http://'+ window.location.hostname,maxResults:10,numChars:270,thumbWidth:95,navText:"View next article ▼",resetToc:"Back to the beginning",noImage:"<a href="http://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg%22,loading:">http://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg",loading:</a>"Load...",counting:"</p><div>Loading article...</div>",searching:"search..."},w=window,d=document,el=function(id){return d.getElementById(id);},o={a:el('feed-order'),b:el('label-sorter').parentNode,c:el('post-searcher'),d:el('feed-q'),e:el('result-desc'),f:el('feed-container'),g:el('feed-nav'),h:d.getElementsByTagName('head')[0],i:0,j:null,k:'published',l:0,m:""},fn={a:function(){old=el('temporer-script');old.parentNode.removeChild(old);},b:function(param){var script=d.createElement('script');script.type="text/javascript";script.id="temporer-script";script.src=param;if(el('temporer-script'))fn.a();o.h.appendChild(script);},c:function(mode,tag,order){o.i++;o.e.innerHTML=cfg.counting;o.g.innerHTML=cfg[mode==1?"searching":"loading"];if(mode===0){fn.b(tag!==null?cfg.homePage+'/feeds/posts/summary/-/'+ tag+'?alt=json-in-script&amp;start-index='+((o.i<em>cfg.maxResults)+ 1)+'&amp;max-results='+ cfg.maxResults+'&amp;orderby='+ order+'&amp;callback=loadToc':cfg.homePage+'/feeds/posts/summary?alt=json-in-script&amp;start-index='+((o.i</em>cfg.maxResults)+ 1)+'&amp;max-results='+ cfg.maxResults+'&amp;orderby='+ order+'&amp;callback=loadToc');}else if(mode==1){fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&amp;start-index='+((o.i<em>cfg.maxResults)+ 1)+'&amp;max-results='+ cfg.maxResults+'&amp;q='+ tag+'&amp;orderby='+ order+'&amp;callback=loadToc');}
+o.j=(tag!==null)?tag:null;o.l=mode;o.a.disabled=true;o.b.children[0].disabled=true;},d:function(json){var _h;o.g.innerHTML="";o.e.innerHTML=o.l==1?'Search results for keywords <strong>“'+ o.m+'”</strong> ('+ json.feed.openSearch$totalResults.$t+' Hasil)':'<div>Total: '+ json.feed.openSearch$totalResults.$t+' Article</div>';if("entry"in json.feed){var a=json.feed.entry,b,c,_d,e="0 Comment",f="",g;for(var i=0;i/ig," ").replace(/&lt;(.</em>?)&gt;/g,"").replace(/<img src="'+%20g+'" alt="'+ b+'"><a href="'+%20c+'">'+ b+'</a><strong> - ('+ e+')</strong><br>'+'<div>'+ _d+'…<br>
+</div>';o.f.appendChild(_h);}
+_h=d.createElement('a');_h.href='#load-more';_h.innerHTML=cfg.navText;_h.onclick=function(){fn.c(o.l,o.j,o.k);return false;};}else{_h=d.createElement('a');_h.href='#reset-content';_h.innerHTML=cfg.resetToc;_h.onclick=function(){o.i=-1;o.e.innerHTML=cfg.counting;o.f.innerHTML="";fn.c(0,null,'published');o.a.innerHTML=o.a.innerHTML;o.b.children[0].innerHTML=o.b.children[0].innerHTML;return false;};}
+o.g.appendChild(_h);o.a.disabled=false;o.b.children[0].disabled=false;},e:function(json){var a=json.feed.category,b='SELECT CATEGORIES...';for(var i=0,len=a.length;i'+ a[i].term.toUpperCase()+'';}
+b+='';o.b.innerHTML=b;o.b.children[0].onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.loading;fn.c(0,this.value,o.k);};}};loadToc=fn.d;loadCategories=fn.e;fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&amp;start-index='+(o.i+ 1)+'&amp;max-results='+ cfg.maxResults+'&amp;orderby=published&amp;callback=loadToc');fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&amp;max-results=0&amp;orderby=published&amp;callback=loadCategories');o.a.onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.counting;o.b.children[0].innerHTML=o.b.children[0].innerHTML;fn.c(0,null,this.value);o.k=this.value;};o.c.onsubmit=function(){o.i=-1;o.f.innerHTML="";o.m=o.d.value;fn.c(1,o.d.value,o.k);return false;};}};_toc.init();
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/sharetrick/sitemap-js">Sitemap-js</a> is maintained by <a href="https://github.com/sharetrick">sharetrick</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
